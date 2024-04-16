@@ -1,0 +1,255 @@
+body{
+    background-color: #222831;
+    
+    font-family: "Montserrat";
+    
+}
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #222831;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #FFD369;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #FFD369;  /* creates padding around scroll thumb */
+  }
+.logo-div{
+    width: 90%;
+    margin: 0px auto;
+    
+
+   
+}
+h3{
+    color: #FFD369;
+
+    
+}
+
+
+
+
+.logo{
+    width: 25%;
+}
+h1, h2{
+    color: #EEEEEE;
+    font-family: "Montserrat";
+    text-align: center;
+}
+p{
+    margin: 30px;
+    margin-right: 10%;
+    padding: 20px 0px 20px 2px;
+    
+}
+.intro-div{
+
+    background-color: #393E46;
+    height: 400px;
+    color: #EEEEEE;
+    border-radius: 20px;
+    width: 90%;
+    margin: 100px auto;
+    height: fit-content;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.06), 0 1px 0 0 rgba(0, 0, 0, 0.02);
+}
+.intro-div1{
+
+
+    height: 400px;
+    color: #EEEEEE;
+
+    width: 90%;
+    margin: 100px auto;
+    height: fit-content;
+   
+}
+.intro-div2{
+    justify-content: center;
+    text-align: center;
+    background-color: #393E46;
+    height: 400px;
+    color: #EEEEEE;
+    border-radius: 20px;
+    width: 90%;
+    margin: 100px auto;
+    height: fit-content;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.06), 0 1px 0 0 rgba(0, 0, 0, 0.02);
+}
+
+.left{
+    margin: 20px;
+    margin-left: 10%;
+    float: left;
+    max-width: 400px;
+
+}
+.background {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+  }
+.main-text1{
+    color: #EEEEEE;
+    margin: 0;
+    
+}
+.main-text{
+    color: #EEEEEE;
+    margin: 0;
+    
+}
+
+
+.h3-text{
+    margin: 0px 10%;
+    width: 40%;
+    float: left;
+   
+
+}
+
+.main-div{
+   
+    height: 300px;
+    width: 90%;
+    margin: 0px auto;
+}
+.varita{
+    width: 40%;
+    float: left;
+    max-width: 400px;
+}
+.button_slide {
+    color: black;
+    border: 2px solid #FFD369;
+    border-radius: 50px;
+    padding: 18px 36px;
+    display: inline-block;
+    background-color: #FFD369;
+    width: 200px;
+    
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #FFD369;
+
+    transition: ease-out 0.4s;
+  }
+  #outer {
+    width: 364px;
+    margin: 50px auto 0 auto;
+    text-align: center;
+  }
+  .slide_left:hover {
+    box-shadow: inset 0 0 0 50px #ffb300;
+  }
+
+
+  .p-div{
+    font-size: 20px;
+    margin-top: 40px;
+  }
+
+.subtitle{
+    margin-left: 20px;
+    
+}
+.servicesTitle{
+    font-size: 18px;
+    
+}
+.servicesText{
+    margin-top: -50px;
+}
+.box{
+    width: 33.3%;
+    float: left;
+}
+.todo{
+    width: 80%;
+    margin: 20px auto;
+}
+.nose{
+    width: 100%;
+}
+.E-mail{
+    margin: 20px;
+    border-radius: 50px;
+    background-color: #222831;
+    border: none;
+    box-shadow: #EEEEEE;
+    height: 20px;
+    text-align: center;
+    color: white;
+}
+.upper{
+    padding-top: 20px;
+    text-align: center;
+}
+.e-mail{
+    padding: 20px;
+}
+
+  @media screen and (max-width: 700px) {
+    .e-mail{
+        font-size: 15px;
+    }
+    .box{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .subtitle{
+        text-align: center;
+    }
+    .subtitle{
+        margin-left: 0;
+    }
+    .main-div{
+        text-align: center;
+        margin: 0px auto;
+        width: 100%;
+        float: none;
+ 
+    }
+    .intro-div{
+        margin: 350px auto;
+        text-align: center;
+    }
+    .varita{
+    display: none;
+    }
+    .h3-text{
+        float: none;
+        text-align: center;
+  
+        width: fit-content;
+    }
+    .left{
+        float: none;
+    }
+    .intro-div{
+        height: fit-content;
+        text-align: center;
+    }
+    h1,h2,h3,p{
+        text-align: center;
+    }
+    body{
+        text-align: center;
+    }
+    .left{
+
+        width: 200px;
+        margin: 20px auto;
+    }
+    
+}
